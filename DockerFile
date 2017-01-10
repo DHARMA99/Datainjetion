@@ -1,0 +1,10 @@
+#Comments
+FROM ubuntu:latest
+MAINTAIN dharma.k
+RUN apt-get update -y
+RUN apt-get install wget
+EVN JAVA_HOME=/user/java/JDK8
+EXPOSE 8080
+RUN mkdir -p /user/java && chmod 755 /user/java
+CMD "banner"
+
