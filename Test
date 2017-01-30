@@ -1,0 +1,5 @@
+#This is small script
+banner
+echo "This is test script for git hub"
+date
+ls -lte
